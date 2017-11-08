@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:redis.properties</value>
+                <value>classpath:db.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig">
+        <property name="maxTotal" value="${redis.maxActive}"/>
+        <property name="maxIdle" value="200"/>
+        <property name="maxWaitMillis" value="${redis.maxWait}"/>
+    </bean>
+
+    <bean id="jedisConnectionFactory"
+          class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
+          p:host-name="${redis.host}"
+          p:port="${redis.port}"
+          p:password="${redis.pass}"
+          p:poolConfig-ref="poolConfig">
+    </bean>
+
+    <bean id="redisCacheTransfer" class="com.lanou.cache.RedisCacheTransfer">
+        <property name="jedisConnectionFactory" ref="jedisConnectionFactory"/>
+    </bean>
+</beans>
