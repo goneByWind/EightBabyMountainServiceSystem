@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>错误信息页面</title>
+    <script src="/lib/jquery/1.9.1/jquery.js"></script>
+    <script>
+        function getErrorMsg() {
+            $.ajax({
+                url:"/getErrorMsg",
+                type:"post",
+                success:function (result) {
+                    var errorMsg = result.message;
+                    $("#errorMsg").html(errorMsg)
+                }
+            })
+        }
+        getErrorMsg();
+    </script>
+</head>
+<body>
+<h1>错误信息:</h1>
+<h1 id="errorMsg"></h1>
+</body>
+</html>
