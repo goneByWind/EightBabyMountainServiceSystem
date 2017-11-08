@@ -1,83 +1,83 @@
-Copyright (C)2003-2017 www.H-ui.net	辉哥	12:56 2017/1/15
+Copyright (C)2003-2017 www.H-ui.net	禄脭赂莽	12:56 2017/1/15
 ==================================================================
---------------用心做站，做不一样的站--------------
+--------------脫脙脨脛脳枚脮戮拢卢脳枚虏禄脪禄脩霉碌脛脮戮--------------
 
-H-ui.admin 3.0 遵循 CC BY 3.0协议，将永久性提供无偿服务。
+H-ui.admin 3.0 脳帽脩颅 CC BY 3.0脨颅脪茅拢卢陆芦脫脌戮脙脨脭脤谩鹿漏脦脼鲁楼路镁脦帽隆拢
 
-如果想做皮肤定制，只需要将skin文件下的任意一个批复文件复制出来一份进行修改就行。
+脠莽鹿没脧毛脳枚脝陇路么露篓脰脝拢卢脰禄脨猫脪陋陆芦skin脦脛录镁脧脗碌脛脠脦脪芒脪禄赂枚脜煤赂麓脦脛录镁赂麓脰脝鲁枚脌麓脪禄路脻陆酶脨脨脨脼赂脛戮脥脨脨隆拢
 
-H-ui一直秉承“不求多炫，实用为主！”的宗旨,为广大工程师提供最实用，最易用的前端代码。
+H-ui脪禄脰卤卤眉鲁脨隆掳虏禄脟贸露脿矛脜拢卢脢碌脫脙脦陋脰梅拢隆隆卤碌脛脳脷脰录,脦陋鹿茫麓贸鹿陇鲁脤脢娄脤谩鹿漏脳卯脢碌脫脙拢卢脳卯脪脳脫脙碌脛脟掳露脣麓煤脗毛隆拢
 
-如果您有项目也在使用H-ui.admin,请保留网站后台底部版权信息，谢谢！
+脠莽鹿没脛煤脫脨脧卯脛驴脪虏脭脷脢鹿脫脙H-ui.admin,脟毛卤拢脕么脥酶脮戮潞贸脤篓碌脳虏驴掳忙脠篓脨脜脧垄拢卢脨禄脨禄拢隆
 
-您可以联系作者，以便在此展现案例，也为您的品牌推广尽一些绵薄之力。
+脛煤驴脡脪脭脕陋脧碌脳梅脮脽拢卢脪脭卤茫脭脷麓脣脮鹿脧脰掳赂脌媒拢卢脪虏脦陋脛煤碌脛脝路脜脝脥脝鹿茫戮隆脪禄脨漏脙脿卤隆脰庐脕娄隆拢
 
---------------用心做站，做不一样的站--------------
+--------------脫脙脨脛脳枚脮戮拢卢脳枚虏禄脪禄脩霉碌脛脮戮--------------
 ==========================================================
-\根目录
-├── _blank.html				空白页(每次我们都拿空白页去创建，这样比较干净！)
-├── _footer.html				页脚公共代码片段
-├── _header.html				头部公共代码片段
-├── _meta.html				meta公共代码片段
-├── robots.txt				搜索引擎爬虫配置文件
-├── login.html				管理员登陆
-├── index.html				首页(主框架)
-├── welcome.html				我的桌面（默认永远打开的页面）
-├── member-开头的				用户相关
-├── artice-开头的				资讯相关
-├── picture-开头的				图片相关
-├── product-开头的				产品相关
-├── page-开头的				页面相关
-├── system-开头的				系统相关
-├── admin-开头的				管理员相关
-├── charts-开头的				统计相关
-			……
-static/	资源
+\赂霉脛驴脗录
+漏脌漏陇漏陇 _blank.html				驴脮掳脳脪鲁(脙驴麓脦脦脪脙脟露录脛脙驴脮掳脳脪鲁脠楼麓麓陆篓拢卢脮芒脩霉卤脠陆脧赂脡戮禄拢隆)
+漏脌漏陇漏陇 _footer.html				脪鲁陆脜鹿芦鹿虏麓煤脗毛脝卢露脦
+漏脌漏陇漏陇 _header.html				脥路虏驴鹿芦鹿虏麓煤脗毛脝卢露脦
+漏脌漏陇漏陇 _meta.html				meta鹿芦鹿虏麓煤脗毛脝卢露脦
+漏脌漏陇漏陇 robots.txt				脣脩脣梅脪媒脟忙脜脌鲁忙脜盲脰脙脦脛录镁
+漏脌漏陇漏陇 login.html				鹿脺脌铆脭卤碌脟脗陆
+漏脌漏陇漏陇 index.html				脢脳脪鲁(脰梅驴貌录脺)
+漏脌漏陇漏陇 welcome.html				脦脪碌脛脳脌脙忙拢篓脛卢脠脧脫脌脭露麓貌驴陋碌脛脪鲁脙忙拢漏
+漏脌漏陇漏陇 member-驴陋脥路碌脛				脫脙禄搂脧脿鹿脴
+漏脌漏陇漏陇 artice-驴陋脥路碌脛				脳脢脩露脧脿鹿脴
+漏脌漏陇漏陇 picture-驴陋脥路碌脛				脥录脝卢脧脿鹿脴
+漏脌漏陇漏陇 product-驴陋脥路碌脛				虏煤脝路脧脿鹿脴
+漏脌漏陇漏陇 page-驴陋脥路碌脛				脪鲁脙忙脧脿鹿脴
+漏脌漏陇漏陇 system-驴陋脥路碌脛				脧碌脥鲁脧脿鹿脴
+漏脌漏陇漏陇 admin-驴陋脥路碌脛				鹿脺脌铆脭卤脧脿鹿脴
+漏脌漏陇漏陇 charts-驴陋脥路碌脛				脥鲁录脝脧脿鹿脴
+			隆颅隆颅
+static/	脳脢脭麓
 
-├── h-ui/			H-ui特有资源
-│    ├── css/			样式
-│    │    ├── H-ui.css			H-ui基础样式
-│    │    ├── H-ui.min.css			H-ui.css 压缩版
-│    │    ├── H-ui.ie.css			H-ui.css IE低版本兼容补丁
-│    ├── images/			图片资源
-│    ├── js/
-│    │    ├── H-ui.js			H-ui核心脚本
-├── h-ui.admin/		H-ui.admin核心资源
-│    ├── css/			样式
-│    │    ├── H-ui.login.css		后台管理员登录页样式
-│    │    ├── H-ui.admin.css		后台界面主要样式
-│    ├── images/			图片资源
-│    ├── js/
-│    │    ├── H-ui.admin.js		后台管理核心脚本
-│    ├── skin/			皮肤资源
-│    │    ├── blue				蓝色
-│    │    ├── default			黑色（默认）
-│    │    ├── green			绿色
-│    │    ├── orange			橙色
-│    │    ├── red				红色
-│    │    ├── yellow			黄色
-Lib/	第三方插件
-├── jquery					jQuery类库（v1.9.1）
-├── Hui-iconfont				阿里图标字体库（H-ui定制）
-├── jquery.SuperSlide			幻灯片组件
-├── Validform				表单验证插件
-├── jquery.validation			表单验证插件
-├── My97DatePicker				日期插件
-├── datatables				表格插件
-├── nprogress				进度条插件
-├── layer					layer弹出层插件
-├── laypage					laypage 翻页插件
-├── jquery.contextmenu			右键菜单插件
-├── ueditor					百度编辑器
-├── Highcharts				图表插件
-├── echarts					百度图标插件
-├── datatables				表格排序，检索插件
-├── WebUploader				百度文件上传组件
-├── lightbox2				图片预览组件
-├── html5shiv.js				html5插件，让低版本IE支持html5元素
-├── DD_belatedPNG_0.0.8a-min.js		解决IE6png透明
-├── swfobject.js				Flash插件
-├── expressInstall.swf  			检查flash插件
-├── respond.min.js				让IE兼容media
-├── colpick.js				颜色插件              
-└─temp				测试数据、图片
+漏脌漏陇漏陇 h-ui/			H-ui脤脴脫脨脳脢脭麓
+漏娄    漏脌漏陇漏陇 css/			脩霉脢陆
+漏娄    漏娄    漏脌漏陇漏陇 H-ui.css			H-ui禄霉麓隆脩霉脢陆
+漏娄    漏娄    漏脌漏陇漏陇 H-ui.min.css			H-ui.css 脩鹿脣玫掳忙
+漏娄    漏娄    漏脌漏陇漏陇 H-ui.ie.css			H-ui.css IE碌脥掳忙卤戮录忙脠脻虏鹿露隆
+漏娄    漏脌漏陇漏陇 images/			脥录脝卢脳脢脭麓
+漏娄    漏脌漏陇漏陇 js/
+漏娄    漏娄    漏脌漏陇漏陇 H-ui.js			H-ui潞脣脨脛陆脜卤戮
+漏脌漏陇漏陇 h-ui.admin/		H-ui.admin潞脣脨脛脳脢脭麓
+漏娄    漏脌漏陇漏陇 css/			脩霉脢陆
+漏娄    漏娄    漏脌漏陇漏陇 H-ui.login.css		潞贸脤篓鹿脺脌铆脭卤碌脟脗录脪鲁脩霉脢陆
+漏娄    漏娄    漏脌漏陇漏陇 H-ui.admin.css		潞贸脤篓陆莽脙忙脰梅脪陋脩霉脢陆
+漏娄    漏脌漏陇漏陇 images/			脥录脝卢脳脢脭麓
+漏娄    漏脌漏陇漏陇 js/
+漏娄    漏娄    漏脌漏陇漏陇 H-ui.admin.js		潞贸脤篓鹿脺脌铆潞脣脨脛陆脜卤戮
+漏娄    漏脌漏陇漏陇 skin/			脝陇路么脳脢脭麓
+漏娄    漏娄    漏脌漏陇漏陇 blue				脌露脡芦
+漏娄    漏娄    漏脌漏陇漏陇 default			潞脷脡芦拢篓脛卢脠脧拢漏
+漏娄    漏娄    漏脌漏陇漏陇 green			脗脤脡芦
+漏娄    漏娄    漏脌漏陇漏陇 orange			鲁脠脡芦
+漏娄    漏娄    漏脌漏陇漏陇 red				潞矛脡芦
+漏娄    漏娄    漏脌漏陇漏陇 yellow			禄脝脡芦
+Lib/	碌脷脠媒路陆虏氓录镁
+漏脌漏陇漏陇 jquery					jQuery脌脿驴芒拢篓v1.9.1拢漏
+漏脌漏陇漏陇 Hui-iconfont				掳垄脌茂脥录卤锚脳脰脤氓驴芒拢篓H-ui露篓脰脝拢漏
+漏脌漏陇漏陇 jquery.SuperSlide			禄脙碌脝脝卢脳茅录镁
+漏脌漏陇漏陇 Validform				卤铆碌楼脩茅脰陇虏氓录镁
+漏脌漏陇漏陇 jquery.validation			卤铆碌楼脩茅脰陇虏氓录镁
+漏脌漏陇漏陇 My97DatePicker				脠脮脝脷虏氓录镁
+漏脌漏陇漏陇 datatables				卤铆赂帽虏氓录镁
+漏脌漏陇漏陇 nprogress				陆酶露脠脤玫虏氓录镁
+漏脌漏陇漏陇 layer					layer碌炉鲁枚虏茫虏氓录镁
+漏脌漏陇漏陇 laypage					laypage 路颅脪鲁虏氓录镁
+漏脌漏陇漏陇 jquery.contextmenu			脫脪录眉虏脣碌楼虏氓录镁
+漏脌漏陇漏陇 ueditor					掳脵露脠卤脿录颅脝梅
+漏脌漏陇漏陇 Highcharts				脥录卤铆虏氓录镁
+漏脌漏陇漏陇 echarts					掳脵露脠脥录卤锚虏氓录镁
+漏脌漏陇漏陇 datatables				卤铆赂帽脜脜脨貌拢卢录矛脣梅虏氓录镁
+漏脌漏陇漏陇 WebUploader				掳脵露脠脦脛录镁脡脧麓芦脳茅录镁
+漏脌漏陇漏陇 lightbox2				脥录脝卢脭陇脌脌脳茅录镁
+漏脌漏陇漏陇 html5shiv.js				html5虏氓录镁拢卢脠脙碌脥掳忙卤戮IE脰搂鲁脰html5脭陋脣脴
+漏脌漏陇漏陇 DD_belatedPNG_0.0.8a-min.js		陆芒戮枚IE6png脥赂脙梅
+漏脌漏陇漏陇 swfobject.js				Flash虏氓录镁
+漏脌漏陇漏陇 expressInstall.swf  			录矛虏茅flash虏氓录镁
+漏脌漏陇漏陇 respond.min.js				脠脙IE录忙脠脻media
+漏脌漏陇漏陇 colpick.js				脩脮脡芦虏氓录镁              
+漏赂漏陇temp				虏芒脢脭脢媒戮脻隆垄脥录脝卢
