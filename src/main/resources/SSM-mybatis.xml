@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        这个文件是spring用来创建sqlSessionFactory的基础
+
+        这个配置文件包含所有的MyBatis的配置
+    -->
+
+    <!--1.加载properties文件     configurer:配置器-->
+    <bean id="propertyConfigurer"
+          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+
+        <property name="location" value="classpath:db.properties"/>
+    </bean>
+
+    <!--2.配置连接池-->
+    <bean id="dataSource"
+          class="org.apache.commons.dbcp2.BasicDataSource">
+
+        <property name="driverClassName" value="${ssm.driver}"/>
+        <property name="url" value="${ssm.url}"/>
+        <property name="username" value="${ssm.username}"/>
+        <property name="password" value="${ssm.password}"/>
+    </bean>
+
+    <!--3.配置sqlSessionFactory(myBatis的核心内容)-->
+    <bean id="sqlSessionFactory"
+          class="org.mybatis.spring.SqlSessionFactoryBean">
+
+        <!--给工厂指定数据源-->
+        <property name="dataSource" ref="dataSource"/>
+        <!--指定mapper.xml文件的配置路径-->
+        <property name="mapperLocations" value="classpath:com/lanou/mapper/*.xml"/>
+
+        <!--可以读取现成的config.xml文件,即原来的mybatis配置文件-->
+    </bean>
+
+    <!--4.配置Mapper扫描器-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+
+        <!--指的是mapper接口文件的位置-->
+        <property name="basePackage" value="com.lanou.mapper"/>
+        <!--指定工厂bean的名字-->
+        <!--***注意这里用的是value="sqlSessionFactory" 而不是ref=""-->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
+
+    <!--5.配置事务管理器-->
+    <bean id="transactionManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+
+        <!--指定数据源/连接池-->
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+</beans>
