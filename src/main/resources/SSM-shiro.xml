@@ -31,9 +31,9 @@
         <property name="filterChainDefinitions">
             <value>
                 <!--anon代表可以匿名访问-->
-                /js/** = anon
-                /css/** = anon
-                /img/** = anon
+                /lib/** = anon
+                /static/** = anon
+                /temp/** = anon
 
                 <!--该地址是要经过表单认证过滤器的,  autc,是上面的key-->
                 /loginsubmit = authc
